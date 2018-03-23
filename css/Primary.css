@@ -1,0 +1,8 @@
+.Countries{
+    text-decoration: none;
+}
+
+.thumbnail:hover {
+    opacity: 0.8;
+}
+

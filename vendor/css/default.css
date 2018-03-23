@@ -1,0 +1,166 @@
+/* Start Color red
+========================
+
+
+
+*/
+
+
+
+/* Color
+===================*/
+
+ul.contact-info li span ,
+.table-cart th,
+.tab li.active a ,
+.nav-tabs li.active a ,
+.nav-tabs li.active a:hover ,
+.nav-tabs li.active a:focus ,
+.nav-tabs li a:hover ,
+.nav-tabs li a:focus,
+.tab li a:hover,
+.tab-wrapper.side-tab .tab .view-all:hover,
+.contact-widget li:hover,
+.social-widget > li > a:hover,
+ul.map-widget > li > a:hover,
+.main-widget-title h3,
+h3.box-title,
+.price-box .price,
+header.header .head-cart .cart-title .cart-count,
+.head-cart-cont .head-cart-items .product-item .head-cart-del:hover,
+.header-top .top-navbar nav li a:hover,
+.header-top .head-wish:hover > span,
+footer.footer .copyright i,
+footer.footer .copyright a,
+.product-item > .product-desc > .product-name:hover ,
+.blog-item > .blog-desc > .blog-title:hover,
+.product-full-desc > .product-name:hover,
+.product-detail .reviews-box .add-review:hover,
+.comment-cont > .comment-title > h3,
+.login-register .forget-pass a:hover,
+.forget-pass-content .heading i,
+.cart-total h3,
+.contact-form .heading h3,
+.profile-content .title,
+.single-blog .comments-wrap h2, .single-blog .add-comment h2,
+.notify .notify-Head > a:hover,
+.notify .notify-Head a > i:hoverو
+.account-sidebar li:hover span.bage,
+.account-sidebar li.active span.bage{
+    color: #E3363F;
+}
+
+
+.cat-number > a{
+    color: #F8694D;
+}
+
+footer.footer .copyright a:hover{
+    color: #ED4B53;
+}
+
+/* Background
+====================*/
+ul.breadcrumb,
+ul.scoial-login li a i,
+.form-icon > button,
+.custom-btn,
+.custom-btn:hover,
+.text-icon-btn,
+.icon-btn,
+.contact-widget li > i,
+.side-widget > .side-widget-title > h3,
+.timer-count .box-time-date .box-time-date-inner,
+.toggle-items > a:hover,
+.toggle-items > a.active,
+.ui-slider .ui-slider-handle,
+.widgets_carousel5.owl-theme .owl-controls .owl-buttons div,
+.widgets_carousel4.owl-theme .owl-controls .owl-buttons div,
+.head-cart-items.owl-theme .owl-controls .owl-buttons div,
+header.header .head-cart .cart-title,
+.head-cart-cont .head-cart-total .head-checkout,
+.head-cart-cont .head-cart-items .product-item .cat-number > a,
+.header-top .head-wish > span,
+.header-top .head-wish:hover,
+.site-menu > ul.menu-nav > li:hover > a,
+.site-menu > ul.menu-nav > li.active > a,
+#home-slider .carousel-indicators .active,
+footer.footer .copyright .scroll-top,
+.product-item .img-container > .product-action > a:after,
+.gallery-control a:hover,
+.account-sidebar li:hover a,
+.account-sidebar li.active a,
+.faq .panel-heading h4:before,
+span.bage{
+    background-color: #E3363F;
+}
+
+
+.text-icon-btn:hover,
+.icon-btn:hover,
+header.header .head-cart .cart-title:hover,
+.head-cart-cont .head-cart-total .head-checkout:hover,
+footer.footer .copyright .scroll-top:hover {
+    background-color: #ED4B53;
+}
+
+
+@media(max-width:991px) {
+    .menu-toggle:hover {
+        background-color: #E3363F;
+    }
+}
+
+@media all and (min-width:992px) {
+    ul.menu-nav .main-drop a:hover {
+        background-color: #E3363F;
+    } 
+}
+@media(max-width:991px) {
+    .site-menu .menu-toggle {
+        background: #E3363F;
+    }
+}
+
+/*Border-color
+=========================*/
+.form-icon:hover > input,
+.tab li.active a,
+.nav-tabs li.active,
+.ui-slider-horizontal .ui-slider-range,
+.head-cart-cont,
+header.header{
+    border-color: #E3363F;
+}
+
+.head-cart-cont .head-cart-total .head-checkout {
+    border-color: #DD3039;
+}
+
+@media all and (min-width:992px) {
+    ul.menu-nav .main-drop {
+		border-color: #ED4B53;
+    }
+}
+
+/* background and border
+==========================*/
+.pagination > li > a:focus, 
+.pagination > li > a:hover, 
+.pagination > li > span:focus, 
+.pagination > li > span:hover,
+
+.pagination > .active > a, 
+.pagination > .active > a:focus, 
+.pagination > .active > a:hover, 
+.pagination > .active > span, 
+.pagination > .active > span:focus, 
+.pagination > .active > span:hover ,
+.tab-wrapper.side-tab .tab li.active a,
+.cat-number > a:hover
+
+
+{
+    background-color: #E3363F;
+    border-color: #E3363F;
+}

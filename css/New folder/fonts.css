@@ -1,0 +1,37 @@
+@font-face {
+  font-family: 'NotoKufiArabic';
+  src: url('../fonts/NotoKufiArabic.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/NotoKufiArabic.woff') format('woff'), 
+       url('../fonts/NotoKufiArabic.ttf')  format('truetype'),
+       url('../fonts/NotoKufiArabic.svg#NotoKufiArabic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'NotoKufiArabic';
+  src: url('../fonts/NotoKufiArabic-Bold.eot?#iefix') format('embedded-opentype'), 
+       url('../fonts/NotoKufiArabic-Bold.woff') format('woff'),
+       url('../fonts/NotoKufiArabic-Bold.ttf')  format('truetype'),
+       url('../fonts/NotoKufiArabic-Bold.svg#NotoKufiArabic-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NotoNaskhArabic';
+  src: url('../fonts/NotoNaskhArabic.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/NotoNaskhArabic.woff') format('woff'), 
+       url('../fonts/NotoNaskhArabic.ttf')  format('truetype'),
+       url('../fonts/NotoNaskhArabic.svg#NotoNaskhArabic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'NotoNaskhArabic';
+  src: url('../fonts/NotoNaskhArabic-Bold.eot?#iefix') format('embedded-opentype'), 
+       url('../fonts/NotoNaskhArabic-Bold.woff') format('woff'),
+       url('../fonts/NotoNaskhArabic-Bold.ttf')  format('truetype'),
+       url('../fonts/NotoNaskhArabic-Bold.svg#NotoNaskhArabic-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}

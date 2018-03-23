@@ -1,0 +1,29 @@
+
+/* */
+.large-list .list {
+    color: #fff;
+    height: 215px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 5;
+    transition: 0.2s;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
+}
+.large-list .list:hover {
+    background-color: #1abc9c;
+}
+.large-list .list i {
+    font-size: 65px;
+    display: block;
+    padding-top: 25%;
+}
+.large-list{
+    background-color: #2c3e50;
+	color: #fff;
+}
+
+
+/* */

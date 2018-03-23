@@ -1,0 +1,352 @@
+.upload-file{
+    width: 700px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    background-color: #eee;
+    position: relative;
+    height: 40px;
+}
+.upload-file input{
+    opacity: 0;
+    width: 100%;
+    position: relative;
+    z-index: 2;
+}
+.upload-file input + label{
+    position:absolute;
+    height: 40px;
+    width: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+    text-align: center;
+    
+}
+.upload-file input + label:after{
+    content: "\f067";
+    font-family: "FontAwesome";
+    position: absolute;
+    top: 0px;
+    left:10px;
+    color: #f00;
+}
+.upload i{
+    background-color: #f22;
+    width:30px;
+    height: 30px;
+}
+
+/* Add-product-form
+=============================*/
+.add-prod-form .product-item-cart > span{
+    margin-right: 10px;
+}
+.add-prod-form .cat-number > input[type="text"]{
+    width: 40px;
+}
+.add-prod-form .product-item-info td .form-control{
+    width: 80%;
+    margin: auto;
+    border-radius: 3px;
+    border: 1px solid #eaeaea;
+    box-shadow: none;
+}
+.add-prod-form .upload-image{
+    height: 220px;
+    overflow: hidden;
+    position: relative;
+}
+.add-prod-form .product-item-cart .text-icon-btn{
+    margin-left: 0;
+}
+/*Dropzone Overwrite*/
+.dropzone{
+    border: 0;
+}
+.dropzone .text{
+    margin: 0;
+    font-size: 18px;
+    text-align: center;
+    /* border: 1px solid #ddd; */
+    padding: 15px;
+    display: block;
+    margin: auto;
+    background-color: #e3363f;
+    color: #fff;
+    z-index: 1;
+    position: relative;
+
+}
+.dropzone .dz-preview{
+    width: 67px;
+}
+.dropzone .dz-preview .dz-image{
+    width: 70px;
+    height: 70px;
+    border-radius: 5px;
+}
+.dropzone .dz-preview .dz-details .dz-size{
+    margin-bottom: 0;
+    font-size: 12px;
+}
+.dropzone .dz-preview .dz-success-mark svg, 
+.dropzone .dz-preview .dz-error-mark svg{
+    width: 25px;
+    height: 25px;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+/* invoice
+=============================*/
+ul.second > li{
+    width: 50%;
+    float: left;
+    padding: 10px 0;
+    border-bottom: 1px solid #f4f4f4
+}
+ul.second > li:nth-child(odd){
+    font-weight: bold
+}
+.invoice {
+    
+}
+.invoice .top-box{
+}
+.invoice .top-box .logo {
+    float: left;
+}
+.invoice .top-box .date {
+    float: right;
+}
+.invoice .middle-box {
+    padding: 18px 19px 15px;
+}
+.invoice .middle-box-head {
+    
+}
+.invoice .middle-box-head address{
+    line-height: 25px
+}
+.invoice .middle-box-content.table-responsive{
+    overflow-x: auto;
+    overflow-y: hidden
+}
+.invoice .middle-box-content table {
+    
+}
+.invoice .middle-box-content table thead th{
+    background: #FFF  ;
+    font-weight: 900
+}
+.invoice .middle-box-content table tr:nth-child(odd) td {
+    background: #f4f4f4
+}
+.invoice .middle-box-content table tr th:nth-child(1),
+.invoice .middle-box-content table tr td:nth-child(1) {
+    width: 60px
+}
+.invoice .middle-box-content table tr th:nth-child(2),
+.invoice .middle-box-content table tr td:nth-child(2) {
+    width: 210px
+}
+.invoice .middle-box-content table tr th:nth-child(3),
+.invoice .middle-box-content table tr td:nth-child(3) {
+    width: 140px
+}
+.invoice .middle-box-content table tr th:nth-child(4),
+.invoice .middle-box-content table tr td:nth-child(4) {
+    width: 510px
+}
+.invoice .middle-box-content table tr th:nth-child(5),
+.invoice .middle-box-content table tr td:nth-child(5) {
+    width: 110px
+}
+.invoice .middle-box-content table tr td,
+.invoice .middle-box-content table tr th{
+    text-align: left;
+    font-size: 12px
+}
+.invoice .middle-box-content table td {
+    
+}
+.invoice .middle-box-footer .payment{
+    
+}
+.invoice .middle-box-footer .payment img {
+    display: inline-block
+}
+.invoice .middle-box-footer .payment p:first-child {
+    font-size: 22px
+}
+.invoice .middle-box-footer .payment p:last-child {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border: 1px solid #e3e3e3;
+    border-radius: 5px
+}
+.invoice .bottom-box {
+    
+}
+.invoice .bottom-box a {
+    width: 100px
+}
+
+
+
+
+/* Notification Page 
+================================== */
+.notify {
+    padding: 20px;
+    border: 1px solid #eaeaea;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+.notify .notify-Head{
+    margin-bottom: 15px;
+}
+.notify .notify-Head > a{
+    font-size: 17px;
+    line-height: 24px;
+    color: #222;
+}
+.notify .notify-Head > a:hover,
+.notify .notify-Head > a:focus{
+    color: #e3363f;
+}
+.notify .notify-Head a > i{
+    float: right;
+}
+
+/*Success*/
+.notify.success{
+    background-color: #51a351;
+    color: #fff;
+}
+.notify.success:hover{
+    opacity: 1;
+}
+/*Warning*/
+.notify.warning{
+    color: #fff;
+    background-color: #f0ad4e;
+    border-color: #eea236;
+}
+
+/*Info*/
+.notify.info{
+    color: #fff;
+    background-color: #5bc0de;
+    border-color: #46b8da;
+}
+
+/*Info*/
+.notify.danger{
+    color: #fff;
+    background-color: #d9534f;
+    border-color: #d9534f;
+}
+
+
+/*Success , Warnning , Info*/
+.notify.success,
+.notify.warning,
+.notify.info,
+.notify.danger{
+    opacity: .8;
+}
+.notify.success:hover,
+.notify.warning:hover,
+.notify.info:hover,
+.notify.danger:hover{
+    opacity: 1;
+}
+
+
+.notify.success .notify-Head > a ,
+.notify.warning .notify-Head > a,
+.notify.info .notify-Head > a,
+.notify.danger .notify-Head > a{
+    color: #fff
+}
+.notify.success .notify-Head > a:hover,
+.notify.success .notify-Head > a:hover,
+.notify.warning .notify-Head > a:hover,
+.notify.warning .notify-Head > a:hover,
+.notify.info .notify-Head > a:hover,
+.notify.info .notify-Head > a:hover ,
+.notify.danger .notify-Head > a:hover,
+.notify.danger .notify-Head > a:hover {
+    color: #222;
+}
+
+/* Orders
+============================*/
+.orders{
+    
+}
+.orders table td{
+    background-color: transparent;
+}
+.orders .table-striped > tbody > tr:nth-of-type(even) {
+    background-color: #f9f9f9;
+}
+.orders .table-striped > tbody > tr:nth-of-type(odd) {
+    background-color: transparent;
+}
+.status{
+    color: #fff;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 3px;
+}
+.status.done{
+    background-color: #5cb85c;
+    
+}
+.status.canceld{
+    background-color: #d9534f;
+}
+
+.status.visa,
+.status.cash{
+    color: #222;
+}
+
+.action-btn{
+    display: block;
+    background-color: #363636;
+    margin-bottom: 5px;
+    padding: 8px;
+    color: #fff;
+    border-radius: 3px;
+    text-transform: capitalize;
+    -webkit-transition: all .35s ease;
+       -moz-transition: all .35s ease;
+            transition: all .35s ease;
+}
+.action-btn i{
+    
+}
+.action-btn:hover,
+.action-btn:focus{
+    color: #fff;
+    background-color: #e3363f;
+}
+
+
+.delete-all{
+    position: absolute;
+    top: 12px;
+    right: 25px;
+}

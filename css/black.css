@@ -1,0 +1,63 @@
+/* Start Color black
+========================
+
+
+
+*/
+
+
+
+/* Color
+===================*/
+.toggle-container .panel > a.collapsed:before {
+    color: #363636;
+}
+/* Background
+====================*/
+header.header,
+.head-cart-cont,
+#home-slider .carousel-indicators li{
+    background-color: #363636;
+}
+
+.head-cart-cont .head-cart-total,
+.head-cart-cont .head-cart-items .product-item .cat-number > a:hover,
+.header-top .head-search input,
+.header-top .head-wish{
+    background-color: #4E4E4E;
+}
+footer.footer {
+    background-color: #1b1b1b;
+}
+
+@media (max-width: 991px) {
+    .header-top .top-navbar .navbar-toggle,
+    .menu-toggle{
+        background-color: #4E4E4E;
+    }
+}
+@media all and (min-width:992px) {
+    ul.menu-nav .main-drop {
+        background-color: #363636;
+    }
+}
+
+/*Border-color
+=========================*/
+.header-top .head-wish {
+    border-color: #363636;
+}
+footer.footer .footer-widgets,
+footer.footer .footer-widgets > .col-md-4:nth-child(2),
+footer.footer .footer-widgets > .col-md-4:nth-child(2) > .widget:first-child {
+    border-color: #252525;
+}
+
+/* background and border
+==========================*/
+@media (max-width: 991px) {
+    .header-top .top-navbar .navbar-nav {
+        background-color: #4E4E4E;
+        border-color: #4E4E4E;
+    }
+}
